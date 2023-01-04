@@ -5,7 +5,13 @@ const Navbar = () => {
   return (
     <>
       <div class="navbar-container">
-        <img style={{width:"2rem",height:"2rem" }} />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/d/d2/R.V._College_of_Engineering_logo.png"
+          style={{width: "5rem", height: "5rem",marginRight:'1rem'}}
+        />
+        <p style={{ fontSize: "2rem", color: "white", fontWeight: "bold" }}>
+          RV College of Engineering
+        </p>
       </div>
     </>
   );
