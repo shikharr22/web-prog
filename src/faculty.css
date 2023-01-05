@@ -1,0 +1,40 @@
+.faculty-container{
+    width:100vw;
+    height:100vh;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    grid-template-columns: 4rem 4rem 4rem;
+    overflow:hidden;
+    position:fixed;
+    background-color:#0C2D48;
+}
+
+.faculty-grid{
+    display:flex;
+    justify-content:center;
+    align-items:end;
+    list-style-type:none;
+    gap:4rem;
+    color:#0C2D48;
+    font-weight:bold;
+    font-size:0.8rem;
+    width:100vw;
+    overflow:auto;
+    padding:2rem 2rem 2rem 2rem;
+    transform:scale(0.9);
+}
+.faculty-item{
+    display:flex;
+    flex-direction:column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    height:20rem;
+    padding:1rem;
+    border-radius:0.4rem;
+    background-color:#D6AD60;   
+    transform:scale(0.9);
+}
+
+.faculty-item:hover{
+    transform:scale(1.05);
+}
