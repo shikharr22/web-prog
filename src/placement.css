@@ -4,10 +4,26 @@
     height:100vh;
 }
 .stats{
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:left;
     width:50%;
-    background-color:cyan;
+    background-color:#000C66;
+    padding-top:6rem;
+    padding-left:6rem;
+    padding-right:0rem;
+    font-family:Merriweather;
+    color:white;
+    
 }
 .placement-graph{
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    padding-top:6rem;
+    align-items:center;
     width:50%;
+    height:100vh;
     background-color:white;
 }
