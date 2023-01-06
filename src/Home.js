@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div style={{ display: "flex", flexDirection: "column", width: "50%" }}>
+        <div style={{ width: "50vw" }}>
           <img
             src="http://www.electronicsandyou.com/blog/wp-content/uploads/2014/06/electricity.jpg"
             style={{
@@ -13,7 +13,7 @@ const Home = () => {
               top: "2rem",
               margin: "2rem",
               left: "2rem",
-              width: "40rem",
+              width: "50vw",
               height: "25rem",
               borderRadius: "0.5rem",
             }}
@@ -26,7 +26,7 @@ const Home = () => {
             top: "3rem",
             padding: "1rem",
             height: "auto",
-            width: "50%",
+            width: "50vw",
             margin: "2rem",
             marginTop: "0rem",
             fontSize: "0.9rem",
